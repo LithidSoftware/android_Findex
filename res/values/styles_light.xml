@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 Jeremie Long
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<resources>
+
+    <!-- Blue -->
+    <style name="AppThemeBlue" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/AppTheme.ActionBlue</item>
+        <item name="android:actionModeBackground">@color/blue_dark</item>
+        <item name="drawer_background">@color/blue</item>
+        <item name="storage_sep">@color/blue_dark</item>
+    </style>
+
+    <style name="AppTheme.ActionBlue" parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_blue</item>
+    </style>
+
+    <!-- Purple -->
+    <style name="AppThemePurple" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/AppTheme.ActionPurple</item>
+        <item name="android:actionModeBackground">@color/purple_dark</item>
+        <item name="drawer_background">@color/purple</item>
+        <item name="storage_sep">@color/purple_dark</item>
+    </style>
+
+    <style name="AppTheme.ActionPurple" parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_purple</item>
+    </style>
+
+    <!-- Green -->
+    <style name="AppThemeGreen" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/AppTheme.ActionGreen</item>
+        <item name="android:actionModeBackground">@color/green_dark</item>
+        <item name="drawer_background">@color/green</item>
+        <item name="storage_sep">@color/green_dark</item>
+    </style>
+
+    <style name="AppTheme.ActionGreen" parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_green</item>
+    </style>
+
+    <!-- Yellow -->
+    <style name="AppThemeYellow" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/AppTheme.ActionYellow</item>
+        <item name="android:actionModeBackground">@color/yellow_dark</item>
+        <item name="drawer_background">@color/yellow</item>
+        <item name="storage_sep">@color/yellow_dark</item>
+    </style>
+
+    <style name="AppTheme.ActionYellow" parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_yellow</item>
+    </style>
+
+    <!-- Red -->
+    <style name="AppThemeRed" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/AppTheme.ActionRed</item>
+        <item name="android:actionModeBackground">@color/red_dark</item>
+        <item name="drawer_background">@color/red</item>
+        <item name="storage_sep">@color/red_dark</item>
+    </style>
+
+    <style name="AppTheme.ActionRed" parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_red</item>
+    </style>
+
+    <!-- Gray -->
+    <style name="AppThemeGray" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/AppTheme.ActionGray</item>
+        <item name="android:actionModeBackground">@color/gray_dark</item>
+        <item name="drawer_background">@color/gray</item>
+        <item name="storage_sep">@color/gray_dark</item>
+    </style>
+
+    <style name="AppTheme.ActionGray" parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_gray</item>
+    </style>
+
+    <!-- Stock -->
+    <style name="AppThemeStock" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/AppTheme.ActionStock</item>
+        <item name="android:actionModeBackground">@color/stock_dark</item>
+        <item name="drawer_background">@color/stock</item>
+        <item name="storage_sep">@color/stock_dark</item>
+    </style>
+
+    <style name="AppTheme.ActionStock" parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_stock</item>
+    </style>
+
+</resources>

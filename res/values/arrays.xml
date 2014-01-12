@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 Jeremie Long
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<resources>
+
+    <string-array name="main_titles">
+        <item>All</item>
+        <item>Documents</item>
+        <item>Downloads</item>
+        <item>Pictures</item>
+        <item>Sounds</item>
+        <item>Videos</item>
+        <item>Trash bin</item>
+    </string-array>
+
+    <string-array name="time_entries">
+        <item>24 hours</item>
+        <item>2 days</item>
+        <item>1 week</item>
+        <item>1 month</item>
+        <item>6 months</item>
+        <item>1 year</item>
+    </string-array>
+
+    <string-array name="sort_entries">
+        <item>Latest</item>
+        <item>Earliest</item>
+        <item>Name (A-Z)</item>
+        <item>Name (Z-A)</item>
+        <item>Size (Larger-Smaller)</item>
+        <item>Size (Smaller-Larger)</item>
+    </string-array>
+
+    <string-array name="size_entries">
+        <item>Less than</item>
+        <item>Greater than</item>
+    </string-array>
+
+    <string-array name="size_entries_types">
+        <item>KiB</item>
+        <item>MiB</item>
+        <item>GiB</item>
+    </string-array>
+
+    <string-array name="intro_images">
+        <item>@drawable/intro_0</item>
+        <item>@drawable/intro_1</item>
+        <item>@drawable/intro_2</item>
+        <item>@drawable/intro_3</item>
+        <item>@drawable/intro_4</item>
+        <item>@drawable/intro_5</item>
+    </string-array>
+
+    <string-array name="intro_message">
+        <item>View all your files in a simple, elegant list</item>
+        <item>Add new tags to automatically search your files</item>
+        <item>View file details too</item>
+        <item>Browsing in low light? No problem, toggle to dark</item>
+        <item>Choose from custom color themes with Pro</item>
+        <item>You can even add a widget to your homescreen</item>
+    </string-array>
+
+    <string-array name="theme_color_names">
+        <item>Stock</item>
+        <item>Blue</item>
+        <item>Purple</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Red</item>
+        <item>Gray</item>
+    </string-array>
+
+    <string-array name="theme_color_names_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="theme_color_values">
+        <item>@drawable/stock</item>
+        <item>@drawable/blue</item>
+        <item>@drawable/purple</item>
+        <item>@drawable/green</item>
+        <item>@drawable/yellow</item>
+        <item>@drawable/red</item>
+        <item>@drawable/gray</item>
+    </string-array>
+
+</resources>

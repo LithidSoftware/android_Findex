@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 Jeremie Long
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<resources>
+
+    <!-- Color -->
+    <color name="blue">#33B5E5</color>
+    <color name="blue_dark">#0099CC</color>
+    <drawable name="blue">#33B5E5</drawable>
+
+    <color name="purple">#AA66CC</color>
+    <color name="purple_dark">#9933CC</color>
+    <drawable name="purple">#AA66CC</drawable>
+
+    <color name="green">#99CC00</color>
+    <color name="green_dark">#669900</color>
+    <drawable name="green">#99CC00</drawable>
+
+    <color name="yellow">#FFBB33</color>
+    <color name="yellow_dark">#FF8800</color>
+    <drawable name="yellow">#FFBB33</drawable>
+
+    <color name="red">#FF4444</color>
+    <color name="red_dark">#CC0000</color>
+    <drawable name="red">#FF4444</drawable>
+
+    <color name="gray">#666</color>
+    <color name="gray_dark">#444</color>
+    <drawable name="gray">#666</drawable>
+
+    <color name="stock">#333</color>
+    <color name="stock_dark">#111</color>
+    <drawable name="stock">#333</drawable>
+
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+    <color name="selection">#22000000</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- File info -->
+    <color name="actionbar_info">#CC000000</color>
+
+    <!-- Widget -->
+    <color name="widget_title_shadow">#99000000</color>
+    <color name="widget_item">#99000000</color>
+    <color name="widget_pressed">#bb000000</color>
+
+    <!-- Light theme colors -->
+    <color name="light_main_background">#DDD</color>
+    <color name="light_main_list_text">#111</color>
+    <color name="light_main_list_text_sub">#AAA</color>
+    <color name="light_main_list_text_selected">#FFF</color>
+
+    <!-- Dark theme colors -->
+    <color name="dark_main_background">#333</color>
+    <color name="dark_main_list_text">#EEE</color>
+    <color name="dark_main_list_text_sub">#AAA</color>
+    <color name="dark_main_list_text_selected">#FFF</color>
+
+    <!-- Color drawables -->
+    <drawable name="loader">#99000000</drawable>
+</resources>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 Jeremie Long
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="8dp"
+            android:layout_marginBottom="4dp"
+            android:background="?attr/main_list_background"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/header_tag_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextHeaders"
+                android:text="Name" />
+
+            <EditText
+                android:id="@+id/new_tag_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:inputType="textCapWords"
+                android:hint="Add custom tag name" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="8dp"
+            android:layout_marginBottom="4dp"
+            android:background="?attr/main_list_background"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/header_tag_option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextHeaders"
+                android:text="Option" />
+
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:visibility="gone">
+
+                <RadioButton
+                    android:id="@+id/radio_none"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text="None" />
+
+                <RadioButton
+                    android:id="@+id/radio_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="Search" />
+
+                <RadioButton
+                    android:id="@+id/radio_extension"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Extention" />
+
+                <RadioButton
+                    android:id="@+id/radio_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Time" />
+
+                <RadioButton
+                    android:id="@+id/radio_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Size" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="8dp"
+            android:background="?attr/main_list_background"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/header_tag_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextHeaders"
+                android:text="Value" />
+
+            <EditText
+                android:id="@+id/new_tag_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Add tag value"
+                android:visibility="gone" />
+
+            <Spinner
+                android:id="@+id/time_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:entries="@array/time_entries"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/size_layout"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <Spinner
+                    android:id="@+id/size_value_spinner"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:entries="@array/size_entries" />
+
+                <EditText
+                    android:id="@+id/size_edit"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:hint="Set size" />
+
+                <Spinner
+                    android:id="@+id/size_type_spinner"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:entries="@array/size_entries_types" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

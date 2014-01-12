@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 Jeremie Long
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/AppTheme.Action</item>
+        <item name="android:windowBackground">@color/light_main_background</item>
+        <item name="main_list_background">@drawable/light_list_item_background</item>
+        <item name="main_list_text">@drawable/light_list_text_color</item>
+        <item name="image_slide">@drawable/ic_action_slide_light</item>
+        <item name="file_default">@drawable/light_file_default</item>
+        <item name="file_picture">@drawable/light_file_picture</item>
+        <item name="file_video">@drawable/light_file_video</item>
+        <item name="file_sound">@drawable/light_file_sound</item>
+    </style>
+
+    <style name="AppThemeDark" parent="android:Theme.Holo">
+        <item name="android:windowBackground">@color/dark_main_background</item>
+        <item name="main_list_background">@drawable/dark_list_item_background</item>
+        <item name="main_list_text">@drawable/dark_list_text_color</item>
+        <item name="image_slide">@drawable/ic_action_slide_dark</item>
+        <item name="file_default">@drawable/dark_file_default</item>
+        <item name="file_picture">@drawable/dark_file_picture</item>
+        <item name="file_video">@drawable/dark_file_video</item>
+        <item name="file_sound">@drawable/dark_file_sound</item>
+    </style>
+
+    <style name="AppThemeNoActionBar" parent="android:Theme.Holo.Light.NoActionBar">
+        <item name="android:windowBackground">@color/light_main_background</item>
+        <item name="main_list_background">@drawable/light_list_item_background</item>
+        <item name="main_list_text">@drawable/light_list_text_color</item>
+        <item name="image_slide">@drawable/ic_action_slide_light</item>
+        <item name="file_default">@drawable/light_file_default</item>
+        <item name="file_picture">@drawable/light_file_picture</item>
+        <item name="file_video">@drawable/light_file_video</item>
+        <item name="file_sound">@drawable/light_file_sound</item>
+    </style>
+
+    <style name="AppThemeDarkNoActionBar" parent="android:Theme.Holo.NoActionBar">
+        <item name="android:windowBackground">@color/dark_main_background</item>
+        <item name="main_list_background">@drawable/dark_list_item_background</item>
+        <item name="main_list_text">@drawable/dark_list_text_color</item>
+        <item name="image_slide">@drawable/ic_action_slide_dark</item>
+        <item name="file_default">@drawable/dark_file_default</item>
+        <item name="file_picture">@drawable/dark_file_picture</item>
+        <item name="file_video">@drawable/dark_file_video</item>
+        <item name="file_sound">@drawable/dark_file_sound</item>
+    </style>
+
+    <style name="FileInfoTheme" parent="AppThemeDark">
+        <item name="android:actionBarStyle">@style/FileInfoTheme.Action</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="FileInfoTheme.Action" parent="android:Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/actionbar_fileinfo</item>
+    </style>
+
+    <style name="AppTheme.Action" parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:displayOptions"></item>
+    </style>
+
+    <style name="TextHeaders">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+</resources>
